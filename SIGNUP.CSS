@@ -1,0 +1,49 @@
+#body{
+    background-image: url(BACKGROUND.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 2px solid white;
+    backdrop-filter: blur(30px);
+    padding: 50px;
+    box-shadow: 0px 0px 20px white;
+    color: white;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -60px;
+}
+#body1{
+    background-image: url(BG1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    position: relative;
+}
+.logo1{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: -60px;
+}

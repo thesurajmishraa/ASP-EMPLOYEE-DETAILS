@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin Page</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="SIGNUP.CSS">
+    <style>
+        .margin{
+            margin:10px 5px;
+        }
+    </style>
+</head>
+<body id="body1">
+    <img class="logo1" src="SAIL_Alloy_Steels_Plant_Logo.png" alt="logo">
+<div class="form">
+    <section class="">
+        <header>
+            <h1>Signin</h1>
+        </header>
+        <form onsubmit="location.href='employees.html'; return false;">
+            <div class="margin">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+        </div>
+        <div class="margin">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+        </form>
+        <div>
+        <button type="submit" class="btn">Signin</button>
+    </div>
+        <p>Don't have an account? <a href="index.html">Signup here</a></p>
+    </section>
+</div>
+</body>
+</html>
